@@ -1,0 +1,29 @@
+Trabajo Práctico Nº 4
+JAVA: Herencia y Polimorfismo
+
+1) Realice una clase Punto que implemente objetos formados por las coordenadas cartesianas y permita
+cambiar la posición del mismo y obtener dichos valores, así como mostrar una cadena indicando sus 
+valores.
+
+2) Utilizando herencia implemente las subclases de Punto que permitan crear objetos Círculo y Cilindro. 
+Para estos objetos sería útil contar con un método que devuelva el área y el volumen 
+respectivamente. Pruebe las clases.
+
+3) Cree o modifique las clases Triángulo, Rectángulo y Círculo para que el comportamiento en común 
+(perímetro, área y un texto con ambas representaciones) de estas clases esté definido en un sólo 
+lugar. Pruebe sus clases en un mismo programa.
+
+4) Defina las clases necesarias para permitir el cálculo del sueldo según el tipo de empleado que sea. Los 
+distintos tipos son:
+• empleado tipo jefe, que recibe un salario semanal fijo sin importar cuántas horas trabaje.
+• empleado a comisión, que recibe un salario base uniforme, más un porcentaje de las ventas.
+• empleado subordinado, que recibe un pago proporcional al número de artículos producidos.
+• empleado por hora, al que se le paga por hora y recibe pago por horas extras.
+Pruebe todo en un Frame en el cual se generen los objetos apropiados para cada tipo de empleado y 
+se muestre el sueldo que tendrá en función de los datos cargados. Utilice la clase Empleado definida 
+con anterioridad.
+
+5) Realice una ampliación del ejercicio anterior a fin de que permita generar empleados a solicitud del 
+operador (mediante un botón), y almacene los mismos en alguna estructura de datos apropiada. Se 
+deberá permitir mostrar por salida estándar un resumen de los objetos (empleados) existentes en 
+cualquier momento.
