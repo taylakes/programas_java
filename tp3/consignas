@@ -1,0 +1,39 @@
+Trabajo Práctico Nº 3
+JAVA: Composición, herencia, uso de this, miembros de clase estáticos
+
+1) Realice una clase Fecha que genere objetos que almacenan fechas válidas de la forma
+día, mes y año. La clase debe proveer un método que establezca la fecha a partir de una 
+cadena con el formato siguiente: “DD/MM/AAAA”. Incluya también un método que devuelva
+la cadena correspondiente a la fecha del objeto. Pruébela desde un Frame sencillo.
+Nota: puede utilizar el método substring de la clase String para obtener partes de la
+cadena. Puede usar los objetos Wrappers para inicializar a partir de un String.
+EJ:
+23/10/2005 dia=23 mes=10 año=2005
+Int dia = Integer.valueOf(fechaStr.substring(0, 2));
+Int mes = Integer.valueOf(fechaStr.substring(3, 5));
+
+2) Modifique la implementación de los métodos de Tiempo que establecen el valor individual
+de horas, minutos o segundos de forma de poder encadenarsu invocación. Si no los había
+incorporado en la clase, entonces esta es su oportunidad.
+  
+3) Permita almacenar datos de empleados de una empresa. Interesa registrar su apellido,
+nombre, fecha de contratación y cumpleaños.
+Pruebe la clase creada en un Frame. Cada vez que agregue un empleado, visualice su 
+cantidad, además permita visualizar las fechas en formato largo (dia: 25 mes: 8: año 2012), 
+luego de pulsar losrespectivos botones.
+  
+4) Modifique la clase Tiempo de modo de incluir el método tick, el cual incrementa el tiempo
+almacenado en un segundo. Proporcione métodos para incrementar los minutos y
+horas, dejando siempre al objeto en un estado consistente. Pruébela con diferentes
+casos y compruebe que su implementación funciona.
+
+5) Modifique la clase Fecha para que provea un método incrementarDia que deberá dejar al
+objeto en un estado consistente, luego de pasar al día siguiente según el calendario.
+Pruébela con diferentes casos y compruebe que su implementación funciona.
+  
+6) Utilice las clases Tiempo y Fecha para formar una clase llamada FechaTiempo, que genera
+los objetos que almacenan una fecha y la hora. Modifique el método tick de modo que 
+invoque a incrementarDia cuando sea necesario. Modifique los métodos que devuelven
+las distintas cadenas para incorporarlas en una sola.
+  
+7) Pruebe realizar el ejercicio anterior aplicando Herencia. Compare los resultados.
