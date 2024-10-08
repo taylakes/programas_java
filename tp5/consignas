@@ -1,0 +1,12 @@
+Trabajo Práctico Nº 5
+JAVA: Arreglos, Interfaces y Clases Contenedoras
+
+1) Escriba una clase Array2 que contenga métodos print() sobrecargados para cada tipo (primitivos y 
+objetos). Se deberá poder imprimir simplemente el arreglo, agregar un mensaje antes que el arreglo sea 
+impreso o poder imprimir un rango de elementos del arreglo. Pruebe la clase con distintos arreglos.
+
+2) Tomando como referencia el último ejercicio del Práctico 4, cree los comparadores apropiados para que 
+el contenedor de empleados este ordenado por Apellido.
+
+3) Extienda el ejercicio anterior para que el usuario pueda ordenar el contenedor por diferentes criterios, 
+por ejemplo, por fecha de ingreso o nacimiento.
