@@ -1,0 +1,32 @@
+Trabajo Práctico Nº 2
+Resolución de problemas en lenguaje Java..
+Se recomienda la utilización del entorno de desarrollo integrado BlueJ.
+
+1) Indique si las siguientes afirmaciones son verdaderas o falsas. Si la respuesta es falsa, explique por qué.
+a. Un arreglo puede almacenar muchos tipos de valores distintos.
+b. Los subíndices de arreglos normalmente deben ser del tipo de datos float.
+c. Un elemento individual de un arreglo que se pasa a un método y se modifica en ese método
+contendrá el valor modificado cuando el método invocado termine su ejecución.
+
+2) Definir e inicializar un arreglo de 10 elementos.
+a. Inicialice con valores aleatorios.
+b. Obtener la sumatoria de todos los elementos.
+
+3) Realice una clase Tiempo que genere objetos que almacenen y manejen hora, minutos y segundos. La
+clase se deberá poder instanciarse con valores por defecto y además deberá tener métodos que
+permitan establecer nuevos valores los cuales, previamente, deberán ser validados. En caso de no ser 
+válidos se deberá mostrar un mensaje en la salida estándar.
+Incorpore métodos para mostrar la hora en formato militar (0900, 1600, etc.) y en formato cadena (9:35 
+AM, 2:05 PM, etc.). Utilice los recursos de la clase desde un Frame sencillo.
+
+4) Crear una clase llamada Racional para realizar aritmética de fracciones.
+La clase deberá poder ser instanciada con argumentos o con valores por defecto en el caso de que no se
+utilicen argumentos. La representación de la fracción deberá ser almacenada en forma reducida, es
+decir, la fracción: 2/4, se almacenaría en el objeto como 1 en numerador y 2 en denominador).
+La clase deberá permitir las siguientes operaciones: suma, resta, multiplicación y división con otro
+Racional; el resultado se deberá almacenar en forma reducida.
+Impresión de números Racionales en la forma a/b. Impresión de números Racionales en formato de
+punto flotante. (Considere ofrecer capacidades de formateo que permitan al usuario de la clase
+especificar el número de dígitos de precisión a la derecha del punto decimal).
+  
+Escriba un programa para probar su clase.
