@@ -16,7 +16,7 @@ public class Prueba
         //Collections.sort(empleados, new ComparadorApellido());//punto 2
         //mostrarLista(empleados);
         
-        //comparador generido se declara igual solo cambia el get y se ordena de A a Z
+        //comparador generico se declara igual solo cambia el get y se ordena de A a Z
         Collections.sort(empleados, new Compara<>(Empleado::getNombre));
         mostrarLista(empleados);
     }
